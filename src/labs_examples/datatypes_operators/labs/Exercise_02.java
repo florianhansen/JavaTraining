@@ -16,14 +16,19 @@ package labs_examples.datatypes_operators.labs;
  *      3. Print out the int
  *
  *      Notice how each type is converted. In which direction is information lost?
- *
  */
-
 public class Exercise_02 {
 
     public static void main(String[] args) {
+        int i = 10;
+        double d = i;
+        System.out.println(d);
 
-        // write code here
+        double d2 = 10.5;
+        int i2 = (int) d2;
+        System.out.println(i2);
+
+
 
     }
 }
