@@ -1,6 +1,10 @@
 package labs_examples.arrays.labs;
 
+import com.sun.jdi.PathSearchingVirtualMachine;
+
+import java.sql.SQLOutput;
 import java.util.Arrays;
+import java.util.Scanner;
 
 /**
  * Arrays calculator
@@ -13,5 +17,19 @@ import java.util.Arrays;
  */
 
 public class Exercise_01 {
-
+    public static void main(String[] args) {
+        int[] inp = new int[10];
+        for(int i=0;i<10;i++){
+            Scanner scan = new Scanner(System.in);
+            int scaninp = scan.nextInt();
+            inp[i]=scaninp;
+            }
+        int count =0;
+        for(int vals:inp){
+            count += vals;
+        }
+        float avg = (float) count/inp.length;
+        System.out.println("The sum is "+ count);
+        System.out.println("The average is "+ avg);
+    }
 }
