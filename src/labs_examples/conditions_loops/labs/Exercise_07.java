@@ -1,5 +1,8 @@
 package labs_examples.conditions_loops.labs;
 
+import javax.swing.plaf.synth.SynthTextAreaUI;
+import java.util.Scanner;
+
 /**
  * Conditions and Loops Exercise 7: First vowel
  *
@@ -14,4 +17,37 @@ package labs_examples.conditions_loops.labs;
  */
 
 public class Exercise_07 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Please write a word");
+        String vowels = "aeiou";
+        String word = scanner.next();
+        int len = word.length()-1;
+        int indof = -1;
+        char ind;
+        int i;
+
+        for(i=0;i<=len;i++){
+            ind= word.charAt(i);
+            indof = vowels.indexOf(ind);
+            if(indof!=-1){
+                break;
+                }
+            }
+        if(indof==-1){
+            System.out.println(word);
+            System.out.println("There is no vowels");
+
+        }else{
+            System.out.println(word);
+            System.out.println("The first vowel is "+word.charAt(i));
+        }
+
+
+
+
+
+
+
+    }
 }
