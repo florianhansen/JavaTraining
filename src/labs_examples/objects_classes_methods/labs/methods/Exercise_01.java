@@ -12,17 +12,26 @@ public class Exercise_01 {
 
     }
 
-
+    public static int multiply(int a, int b){
+        return a*b;
+    }
     // 1) Create a static multiply() method below that takes two int arguments (int a, int b) and
     //    returns the result of a * b
-
+    public static int divide(int a, int b){
+        return a/b;
+    }
 
     // 2) Create a static divide() method below that takes two int arguments (int a, int b) and
     //    returns the result of a / b
-
+    public static void joke(){
+        System.out.println("I cannot make a joke");;
+    }
 
     // 3) Create a static void method that will print of joke of your choice to the console
-
+    public static int sec(int a){
+        int years = a*365*24*60*60;
+        return years;
+    }
 
     // 4) Create a static method that takes in a number in years (int years) as an argument
     //    and returns the number of seconds that number in years represents
