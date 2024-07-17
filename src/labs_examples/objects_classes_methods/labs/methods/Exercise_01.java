@@ -9,6 +9,12 @@ public class Exercise_01 {
 
         // please create the methods as instructed below then
         // call each of those methods from here, within the main()
+        multiply(1,2);
+        divide(1,2);
+        joke();
+        sec(3);
+        varArgs(2,3,2,3,1);
+
 
     }
 
@@ -35,7 +41,10 @@ public class Exercise_01 {
 
     // 4) Create a static method that takes in a number in years (int years) as an argument
     //    and returns the number of seconds that number in years represents
-
+    public static int varArgs(int...v){
+        int longer = v.length;
+        return longer;
+    }
 
     // 5) Create a varargs method that will return the length of the varargs array passed in
 
