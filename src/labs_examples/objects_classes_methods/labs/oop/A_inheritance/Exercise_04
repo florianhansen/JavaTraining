@@ -1,6 +1,7 @@
 
 Without running the code below, please tell me what it will print.
 
+Child called. The dynamic part identify the method location.
 
 
 public class InheritanceTest

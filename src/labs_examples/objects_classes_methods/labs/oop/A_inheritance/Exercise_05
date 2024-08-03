@@ -1,7 +1,7 @@
 
 Without running the code below, please tell me what will print. Why?
 
-
+Parent Called. The static part indicates the location.
 
 
 public class InheritanceTest

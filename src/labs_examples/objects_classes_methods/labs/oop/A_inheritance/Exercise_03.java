@@ -4,7 +4,7 @@ package labs_examples.objects_classes_methods.labs.oop.A_inheritance;
  * Why does the output print in the order it does?
  *
  * You answer:
- *
+ * Class C inherits from the properties of the parents. In their code, they print a sentence. The first class initiated is always the parent class so that it starts with A.
  */
 
 class A_1 {
